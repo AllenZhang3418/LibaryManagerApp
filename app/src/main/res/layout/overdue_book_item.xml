@@ -1,0 +1,24 @@
+<!-- overdue_book_item.xml for OverdueBooksAdapter  -->  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    android:padding="16dp"  
+    android:orientation="vertical">  
+  
+    <TextView  
+        android:id="@+id/tvBookTitle"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:textSize="18sp"  
+        android:text="Book Title"/>  
+  
+    <TextView  
+        android:id="@+id/tvDueDate"  
+        android:layout_width="match_parent"  
+        android:layout_height="wrap_content"  
+        android:textSize="16sp"  
+        android:text="Due Date"/>  
+  
+    <!-- More views can be added to display other information about the book -->  
+  
+</LinearLayout>

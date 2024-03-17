@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Book Manager</string>
+    <string name="title_home">Book Manager Homepage</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="title_borrow_book">Borrow Book Manager</string>
+    <string name="title_return_book">Return Book Manager</string>
+    <string name="title_return_overdue">Return overdue Manager</string>
+
+    <string name="str_send_overdue_alert">Send overdue warning</string>
+    <string name="str_return_all_books">Return all books</string>
+    <string name="str_book_name">Book name</string>
+    <string name="str_author_name">Author</string>
+    <string name="str_borrow_status">Borrow status</string>
+    <string name="str_search_book">Search for books</string>
+    <string name="str_search">Search for</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:app="http://schemas.android.com/apk/res-auto"  
+    xmlns:tools="http://schemas.android.com/tools"  
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent"  
+    android:padding="16dp"  
+    android:orientation="vertical"  
+    tools:context=".MainActivity">  
+  
+    <TextView  
+        android:id="@+id/totalBooksTextView"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Total Books: 0" />  
+  
+    <TextView  
+        android:id="@+id/totalReadersTextView"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Total Readers: 0" />  
+  
+    <TextView  
+        android:id="@+id/maxBooksPerReaderTextView"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Max Books Per Reader: 0" />  
+  
+    <Button  
+        android:id="@+id/borrowBookButton"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Borrow Book" />  
+  
+    <Button  
+        android:id="@+id/returnBookButton"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="Return Book" />  
+  
+    <Button  
+        android:id="@+id/viewOverdueBooksButton"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:text="View Overdue Books" />  
+  
+</LinearLayout>
